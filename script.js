@@ -11,16 +11,16 @@ function getComputerChoice() {
     }
 }
 
-function getHumanChoice() {
-    let choice = prompt("Choose between: Rock, Paper or Scissors");
+// function getHumanChoice() {
+//     let choice = prompt("Choose between: Rock, Paper or Scissors");
 
 
-    while (choice.toLowerCase() !== "rock" && choice.toLowerCase() !== "paper" && choice.toLowerCase() !== "scissors") {
-        choice = prompt("wrong! Choose between: Rock, Paper or Scissors");
-    }
-    return choice;
+//     while (choice.toLowerCase() !== "rock" && choice.toLowerCase() !== "paper" && choice.toLowerCase() !== "scissors") {
+//         choice = prompt("wrong! Choose between: Rock, Paper or Scissors");
+//     }
+//     return choice;
 
-}
+// }
 
 let humanScore = 0, computerScore = 0;
 
